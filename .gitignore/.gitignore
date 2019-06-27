@@ -1,0 +1,23 @@
+using System;
+namespace ConsoleApplication1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int anzahl = Convert.ToInt32(Console.ReadLine());
+
+            for (int x = 0; x < anzahl; x++)
+            {
+                if (x == 0)
+                {
+                Console.WriteLine("*   *");
+                Console.WriteLine("*   *");
+                }
+                Console.WriteLine("*****");
+                Console.WriteLine("*   *");
+                Console.WriteLine("*   *");
+            }
+        }
+    }
+}
